@@ -8,4 +8,5 @@ function paintBackImage() {
     document.body.style.backgroundImage = backImage;
 }
 
+
 paintBackImage();
