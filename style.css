@@ -1,0 +1,96 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+#contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+#qutoe_list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  color: white;
+}
+
+span {
+  text-align: center;
+}
+
+#weather {
+  position: absolute;
+  right: 10px;
+  color: white;
+}
+
+#todo_list {
+  list-style: none;
+  position: absolute;
+  padding: 0px;
+  color: black;
+  right: 10px;
+  bottom: 10px;
+  font-weight: bold;
+  background: blanchedalmond;
+  opacity: 0.5;
+}
+
+h1 {
+  padding: 10px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: 5em;
+}
+
+h2 {
+  padding: 10px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: 2em;
+}
+
+#login_form input:first-child,
+#todo_text {
+  border-right: 0px;
+  border-top: 0px;
+  border-left: 0px;
+  background: none;
+  border-color: white;
+}
+
+#login_form input:first-child::placeholder,
+#todo_text::placeholder {
+  color: white;
+  border-color: white;
+  text-align: center;
+}
+
+#login_form input:last-child,
+button {
+  border: none;
+  background: none;
+  color: white;
+  font-weight: bold;
+}
